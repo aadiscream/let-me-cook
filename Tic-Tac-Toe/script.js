@@ -50,7 +50,7 @@ const checkWinner = () => {
     ) {
       winnerMessage.style.display = "block";
       disableBoxex();
-      wintxt.innerText = "X Wins🎉 ";
+      wintxt.innerText = "O Wins🎉 ";
     } else if (
       boxes[pattern[0]].innerText === "X" &&
       boxes[pattern[1]].innerText === "X" &&
